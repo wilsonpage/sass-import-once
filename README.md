@@ -5,13 +5,13 @@
 
 ## Installation
 
-  Just copy the index.scss file somewhere into your project.
-
-  OR
-
 ```
 $ component install wilsonpage/sass-import-once
 ```
+
+  OR
+
+  Just copy the .scss file somewhere into your project.
 
 ## Usage
 
