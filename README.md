@@ -7,6 +7,8 @@
 
   Just copy the index.scss file somewhere into your project.
 
+  OR
+
 ```
 $ component install wilsonpage/sass-import-once
 ```
@@ -14,19 +16,47 @@ $ component install wilsonpage/sass-import-once
 ## Usage
 
 ```
+// defaults.scss
+
 $filename: 'defaults.scss';
 @import 'sass-import-once';
 @if not-imported($filename) {
 /*******************************************/
 
-html,
-body {
-  width: 100%;
-  height: 100%;
+h1 {
+  color: red;
 }
 
-body {
-  background-color: #333;
+/*******************************************/
+}
+```
+
+```
+// my-module.scss
+
+@import 'defaults';
+/*******************************************/
+
+.my-module {}
+
+.my-module h1 {
+  font-size: 40px;
+}
+
+/*******************************************/
+}
+```
+
+```
+// another-module.scss
+
+@import 'defaults';
+/*******************************************/
+
+.another-module {}
+
+.another-module h1 {
+  font-size: 20px;
 }
 
 /*******************************************/
