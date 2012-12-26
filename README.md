@@ -15,9 +15,8 @@ $ component install wilsonpage/sass-import-once
 
 ## Usage
 
+defaults.scss
 ```
-// defaults.scss
-
 $filename: 'defaults.scss';
 @import 'sass-import-once';
 @if not-imported($filename) {
