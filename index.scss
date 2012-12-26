@@ -1,0 +1,9 @@
+$imported: () !default;
+@function not-imported($file) {
+    @if index($imported, $file) {
+        @return false;
+    } @else {
+        $imported: append($imported, $file);
+        @return true;
+    }
+}
