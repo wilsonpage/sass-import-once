@@ -37,7 +37,6 @@ my-module.scss
 .my-module h1 {
   font-size: 40px;
 }
-
 ```
 
 another-module.scss
