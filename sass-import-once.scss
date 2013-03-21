@@ -1,9 +1,7 @@
-$imported: () !default;
-@function not-imported($file) {
-    @if index($imported, $file) {
-        @return false;
-    } @else {
-        $imported: append($imported, $file);
-        @return true;
-    }
+$modules: () !default;
+@mixin exports($name) {
+  @if (index($modules, $name) == false) {
+    $modules: append($modules, $name);
+    @content;
+  }
 }
