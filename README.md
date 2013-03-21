@@ -15,38 +15,7 @@ $ component install wilsonpage/sass-import-once
 
 ## Usage
 
-defaults.scss
-```
-$filename: 'defaults.scss';
-@import 'sass-import-once';
-@if not-imported($filename) {
-/* ------------------------------------- */
-
-h1 {
-  color: red;
-}
-
-/* ------------------------------------- */
-}
-```
-
-my-module.scss
-```
-@import 'defaults';
-
-.my-module h1 {
-  font-size: 40px;
-}
-```
-
-another-module.scss
-```
-@import 'defaults';
-
-.another-module h1 {
-  font-size: 20px;
-}
-```
+(see exmaples)
 
 ## License
 
