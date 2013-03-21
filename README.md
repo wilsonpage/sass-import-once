@@ -15,7 +15,7 @@ $ component install wilsonpage/sass-import-once
 
 ## Usage
 
-(see exmaples)
+(see examples)
 
 ## License
 
