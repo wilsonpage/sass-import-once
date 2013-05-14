@@ -1,0 +1,20 @@
+{
+  "name": "sass-import-once",
+  "version": "0.0.0",
+  "description": "Prevents SASS dependencies being imported more than once",
+  "main": "sass-import-once.scss",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wilsonpage/sass-import-once.git"
+  },
+  "author": "Wilson Page",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "1ecb89574201d4badf556d08d0e6527d8fbec6cb"
+}
