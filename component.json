@@ -4,7 +4,7 @@
 	"version": "0.1.0",
 	"keywords": "sass",
 	"files": [
-		"index.scss"
+		"sass-import-once.scss"
 	],
 	"licence": "MIT"
 }
