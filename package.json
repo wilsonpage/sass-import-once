@@ -1,6 +1,6 @@
 {
   "name": "sass-import-once",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Prevents SASS dependencies being imported more than once",
   "main": "sass-import-once.scss",
   "directories": {
