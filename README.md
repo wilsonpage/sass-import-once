@@ -9,9 +9,13 @@
 $ component install wilsonpage/sass-import-once
 ```
 
-  OR
+```
+$ bower install sass-import-once
+```
 
-  Just copy the .scss file somewhere into your project.
+OR
+
+Just copy the .scss file somewhere into your project.
 
 ## Usage
 
