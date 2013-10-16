@@ -1,0 +1,25 @@
+{
+  "name": "sass-import-once",
+  "description": "Declares a module that should only be imported once",
+  "version": "0.1.0",
+  "keywords": [
+    "sass"
+  ],
+  "files": [
+    "index.scss"
+  ],
+  "licence": "MIT",
+  "homepage": "https://github.com/wilsonpage/sass-import-once",
+  "authors": [
+    "Wilson Page <wilsonpage@me.com:>"
+  ],
+  "main": "sass-import-once.scss",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
