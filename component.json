@@ -1,7 +1,7 @@
 {
   "name": "sass-import-once",
   "description": "Declares a module that should only be imported once",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [
     "sass"
   ],
