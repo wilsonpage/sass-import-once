@@ -1,4 +1,4 @@
-$modules: () !default;
+$modules: () !global !default;
 @mixin exports($name) {
   @if not index($modules, $name) {
     $modules: append($modules, $name) !global;
