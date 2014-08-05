@@ -6,7 +6,7 @@
     "sass"
   ],
   "files": [
-    "sass-import-once.scss"
+    "_sass-import-once.scss"
   ],
   "licence": "MIT",
   "homepage": "https://github.com/wilsonpage/sass-import-once",
