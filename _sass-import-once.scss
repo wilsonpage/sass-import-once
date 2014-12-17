@@ -1,7 +1,8 @@
-$modules: () !default;
+$imported-modules: () !default;
+
 @mixin exports($name) {
-  @if (index($modules, $name) == null) {
-    $modules: append($modules, $name) !global;
+  @if (index($imported-modules, $name) == null) {
+    $imported-modules: append($imported-modules, $name) !global;
     @content;
   }
 }
