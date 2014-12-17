@@ -1,5 +1,10 @@
 $imported-modules: () !default;
 
+/// Module export mixin
+/// This mixin helps making sure a module is imported once and only once.
+/// @access public
+/// @param {String} $name - Name of exported module
+/// @require $imported-modules
 @mixin exports($name) {
   @if (index($imported-modules, $name) == null) {
     $imported-modules: append($imported-modules, $name) !global;
