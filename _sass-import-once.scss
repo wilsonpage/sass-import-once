@@ -4,5 +4,7 @@ $imported-modules: () !default;
   @if (index($imported-modules, $name) == null) {
     $imported-modules: append($imported-modules, $name) !global;
     @content;
+  } @else {
+    @warn "Module `#{$name}` has already been imported.";
   }
 }
