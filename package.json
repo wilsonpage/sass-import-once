@@ -14,7 +14,7 @@
     "url": "git://github.com/wilsonpage/sass-import-once.git"
   },
   "author": "Wilson Page",
-  "license": "BSD",
+  "license": "MIT",
   "readmeFilename": "README.md",
   "gitHead": "1ecb89574201d4badf556d08d0e6527d8fbec6cb"
 }
