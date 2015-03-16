@@ -1,7 +1,7 @@
 
-# SASS Import Once
+# Sass Import Once
 
-  When included in a SASS module, sass-import-once will prevent the styles being duplicated if `@import` is called somewhere else. This is cool because it allows every SASS file to declare its own dependencies. This promotes encapulation and allows modules to standalone if need be.
+  When included in a Sass module, sass-import-once will prevent the styles being duplicated if `@import` is called somewhere else. This is cool because it allows every Sass file to declare its own dependencies. This promotes encapulation and allows modules to standalone if need be.
 
 ## Installation
 
